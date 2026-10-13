@@ -2,6 +2,21 @@
   "name": "nextjs-mysql-crud",
   "version": "0.1.0",
   "private": true,
+  "description": "Aplikasi CRUD sederhana (Create, Read, Update, Delete) untuk data \"produk\",\r dibangun dengan Next.js App Router dan database MySQL, siap deploy ke Vercel\r dengan database di Aiven.",
+  "homepage": "https://github.com/agengsubagja001/project_deploy_aiven#readme",
+  "bugs": {
+    "url": "https://github.com/agengsubagja001/project_deploy_aiven/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agengsubagja001/project_deploy_aiven.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,5 +28,6 @@
     "next": "14.2.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
-  }
+  },
+  "devDependencies": {}
 }
